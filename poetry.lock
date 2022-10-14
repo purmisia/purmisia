@@ -1,0 +1,15 @@
+[[package]]
+name = "llvmlite"
+version = "0.38.1"
+description = "lightweight wrapper around basic LLVM functionality"
+category = "main"
+optional = false
+python-versions = ">=3.7,<3.11"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "~3.10"
+content-hash = "e2238f5958d6f8565e211932c1457b14898254cd5716f63d3104c5ae0c3e263e"
+
+[metadata.files]
+llvmlite = []
