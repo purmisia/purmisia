@@ -1,5 +1,5 @@
 """
-mochac
+denerc
 ~~~~~~
 Compiler Framework for the Dener Programming Language.
 """
