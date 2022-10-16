@@ -1,5 +1,5 @@
-# Dener Compiler
-This is compiler for the Dener Programming Language.
+# Dodo Compiler
+This is compiler for the Dodo Programming Language.
 
 
 ## Breaking Changes & Consistency

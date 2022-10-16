@@ -1,5 +1,5 @@
 """
-Copyright (c) 2022 Dener and Dener Contributors.
+Copyright (c) 2022 Dodo Software Foundation and Dodo Contributors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@ limitations under the License.
 """
 import os
 import uuid
-from denerc.errors import UnsupportedOS
+from dodoc.errors import UnsupportedOS
 
 node_id = hex(uuid.uuid4().int)
 

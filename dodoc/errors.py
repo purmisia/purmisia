@@ -1,5 +1,5 @@
 """
-Copyright (c) 2022 Dener and Dener Contributors.
+Copyright (c) 2022 Dodo Software Foundation and Dodo Contributors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,14 +16,14 @@ limitations under the License.
 
 class CompilerError(Exception):
     """
-    A Dener Compiler Error
+    A Dodo Compiler Error
     """
     def __init__(self, code: int, message: str):
         super().__init__(f'PANIC!: Compiler failed to compile under code {code} with message:\n\n{message}')
 
 class UnsupportedOS(CompilerError):
     """
-    Raised when DenerC is ran on an unsupported OS.
+    Raised when DodoC is ran on an unsupported OS.
     """
 
 class SyntacticError(CompilerError):
